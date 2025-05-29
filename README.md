@@ -11,4 +11,6 @@ make an executable file ```chmod +x ~/yourfilename.sh```
 
 launching the file in screen ```screen -S aztec``` 
 
+```~/yourfilename.sh```
+
 exiting the session without stopping the process Ctrl+A +D
