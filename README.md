@@ -5,7 +5,7 @@ Since the container may stop due to a critical error, you can use a simple resta
 
 create file ```nano ~/yourfilename.sh```
 
-we copy and paste this in there, having previously entered our data, after that, we save the file Ctrl+X , press Y , press Enter
+we copy and paste this in there https://raw.githubusercontent.com/ZaraGossa/AztecCLI_RestartContainer/refs/heads/main/AutoRestart, having previously entered our data, after that, we save the file Ctrl+X , press Y , press Enter
 
 make an executable file ```chmod +x ~/yourfilename.sh```
 
