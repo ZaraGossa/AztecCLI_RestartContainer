@@ -1,0 +1,18 @@
+#!/bin/bash
+
+while true; do
+  echo "[INFO] Launching the aztec CLI..."
+  date
+  aztec start --node --archiver --sequencer \
+    --network alpha-testnet \
+    --l1-rpc-urls YOUR_RPC \
+    --l1-consensus-host-urls YOUR_CONSENSUS \
+    --sequencer.validatorPrivateKey YOUR_PRIVATE_KEY \
+    --sequencer.coinbase YOUR_WALLET \
+    --sequencer.governanceProposerPayload YOUR_WALLET \
+    --p2p.p2pIp YOUR_IP \
+    --p2p.maxTxPoolSize 1000000000
+
+  echo "[WARN] Aztec CLI has ended. Restart after 5 seconds..."
+  sleep 5
+done
